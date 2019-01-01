@@ -47,7 +47,7 @@ return [
             'database' => env('DB_DATABASE', 'couteaux'),
             'username' => env('DB_USERNAME', 'couteau'),
             'password' => env('DB_PASSWORD', 'couteau'),
-            'unix_socket' => env('DB_SOCKET', '3306'),
+            'unix_socket' => '/opt/lampp/var/mysql/mysql.sock',
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
